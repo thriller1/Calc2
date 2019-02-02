@@ -61,7 +61,7 @@ namespace Calc2
             StringContent stringContent = new StringContent(parseMsg, Encoding.UTF8, "application/json");
 
             HttpClient client = new HttpClient();
-            HttpRequestMessage msg = new HttpRequestMessage(HttpMethod.Post, "http://localhost/WebApplication1/api/Students9/Students");
+            HttpRequestMessage msg = new HttpRequestMessage(HttpMethod.Post, "http://localhost/WebApplication1/api/Students9/Student");
             msg.Content = stringContent;
             HttpResponseMessage req = client.SendAsync(msg).Result;
            
