@@ -15,8 +15,29 @@
                 <ColumnDefinition Width=".4*"/>
                 <ColumnDefinition Width=".6*"/>
             </Grid.ColumnDefinitions>
-            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"></Label>
-            
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                   Text="AddStudents" TextColor="Blue"
+                   VerticalOptions="Center" HorizontalOptions="Center"
+                   FontSize="Large"></Label>
+            <Label Grid.Row="1" Grid.Column="0"
+                   Text="Name" Margin="10,20,0,0"
+                   TextColor="blue"></Label>
+            <Entry Grid.Row="1" Grid.Column="1"
+                   VerticalOptions="Center"
+                   Text="{Binding Name}"
+                   Placeholder="Enter Student Name"></Entry>
+            <Label Grid.Row="2" Grid.Column="0"
+                   Text="RollNo" Margin="10,20,0,0"
+                   TextColor="blue"></Label>
+            <Entry Grid.Row="2" Grid.Column="1"
+                   VerticalOptions="Center"
+                   Text="{Binding RollNo}"
+                   Placeholder="Enter Student RollNo"></Entry>
+            <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"
+                    BorderRadius="30" VerticalOptions="Center"
+                    Text="AddStudent"  BackgroundColor="white"
+                    TextColor="blue"
+                x:Name="BtnAddStudent" Clicked="BtnAddStudentsClicked"></Button>
         </Grid>
     </ContentPage.Content>
 </ContentPage>

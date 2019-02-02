@@ -11,7 +11,7 @@ namespace Calc2
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new InsertStudents());
         }
 
         protected override void OnStart()
