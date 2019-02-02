@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calc2.Menu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="LsitPAGE1" x:Name="ListPage1" Clicked="ListPage1Clicked"></Button>
+            <Button Text="Loign" x:Name="Login" Clicked="Loginclicked"></Button>
+            <Button Text="HomePage" x:Name="home" Clicked="homeclicked"></Button>
+            <Button Text="Calc" x:Name="Calc" Clicked="CalcClicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
