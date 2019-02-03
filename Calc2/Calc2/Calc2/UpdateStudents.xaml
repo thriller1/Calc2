@@ -37,7 +37,8 @@
             <ListView Grid.Row="1" Grid.Column="0"
                        ItemsSource="{Binding StudentList}"
                       HasUnevenRows="False"
-                     
+                        ItemSelected="Listview1_ItemSelected"
+                      x:Name="Listview1"
                       ItemTemplate="{StaticResource itemTemplate}"></ListView>
 
 
