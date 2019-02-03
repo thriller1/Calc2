@@ -16,29 +16,17 @@ namespace Calc2
         {
             InitializeComponent();
         }
-        private void ListPage1Clicked(object sender, EventArgs e)
+         
+        private void BtnAllstudentsClicked(object sender, EventArgs e)
         {
-           
+            UpdateStudents o = new UpdateStudents();
+            Navigation.PushAsync(o);
         }
 
-        private void Loginclicked(object sender, EventArgs e)
+        private void BtnInsertStudentsClicked(object sender, EventArgs e)
         {
-           
-        }
-
-        private void homeclicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CalcClicked(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void BtnInsertClicked()
-        {
-
+            InsertStudents o = new InsertStudents();
+            Navigation.PushAsync(o);
         }
     }
 }

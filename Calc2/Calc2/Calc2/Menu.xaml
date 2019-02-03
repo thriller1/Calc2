@@ -4,10 +4,8 @@
              x:Class="Calc2.Menu">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="LsitPAGE1" x:Name="ListPage1" Clicked="ListPage1Clicked"></Button>
-            <Button Text="Loign" x:Name="Login" Clicked="Loginclicked"></Button>
-            <Button Text="HomePage" x:Name="home" Clicked="homeclicked"></Button>
-            <Button Text="Calc" x:Name="Calc" Clicked="CalcClicked"></Button>
+            <Button Text="AllStudents" x:Name="BtnAllStudents" Clicked="BtnAllstudentsClicked"></Button>
+            <Button Text="Insertnewstudents" x:Name="BtnInsertStudents" Clicked="BtnInsertStudentsClicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
